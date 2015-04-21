@@ -1,0 +1,35 @@
+﻿Build started 05/12/14 09:22:29.
+     1>Project "C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\TreeHands\TreeHands.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\include /I"C:\dev\freeglut-2.8.1\include" /I"C:\dev\glew-1.11.0\include" /IC:\dev\glm /I"C:\dev\freetype-2.5.3\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LeapMotion.cpp LSystem.cpp main.cpp TreeHands.cpp
+         LeapMotion.cpp
+         LSystem.cpp
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         main.cpp
+         TreeHands.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\TreeHands.exe" /NOLOGO /LIBPATH:C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86 /LIBPATH:"C:\dev\freeglut-2.8.1\lib\x86" /LIBPATH:"C:\dev\glew-1.11.0\lib\Release\Win32" Leap.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\TreeHands.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\TreeHands.lib" /MACHINE:X86 /SAFESEH Release\LeapMotion.obj
+         Release\LSystem.obj
+         Release\main.obj
+         Release\TreeHands.obj
+         Generating code
+     1>c:\users\andresmauricio\documents\visual studio 2012\projects\treehands\treehands\lsystem.cpp(494): warning C4715: 'Turtle::generatePoints' : not all control paths return a value
+     1>c:\users\andresmauricio\documents\visual studio 2012\projects\treehands\treehands\main.cpp(296): warning C4700: uninitialized local variable 'cGrammar' used
+         Finished generating code
+         TreeHands.vcxproj -> C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\TreeHands.exe
+       PostBuildEvent:
+         xcopy /yr "C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\Leap.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\"
+         xcopy /yr "C:\dev\freeglut-2.8.1\lib\x86\freeglut.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\"
+         xcopy /yr "C:\dev\glew-1.11.0\bin\Release\Win32\glew32.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\Release\"
+         :VCEnd
+         C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\Leap.dll
+         1 archivo(s) copiado(s)
+         C:\dev\freeglut-2.8.1\lib\x86\freeglut.dll
+         1 archivo(s) copiado(s)
+         C:\dev\glew-1.11.0\bin\Release\Win32\glew32.dll
+         1 archivo(s) copiado(s)
+     1>Done Building Project "C:\Users\AndresMauricio\Documents\Visual Studio 2012\Projects\TreeHands\TreeHands\TreeHands.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.51

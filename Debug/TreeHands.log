@@ -1,0 +1,39 @@
+﻿Build started 06/11/14 17:33:54.
+     1>Project "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\TreeHands\TreeHands.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TreeHands.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\include /I"C:\dev\freeglut-2.8.1\include" /I"C:\dev\glew-1.11.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\andresmauricio\documents\visual studio 2010\projects\treehands\treehands\main.cpp(74): warning C4101: 'vbo' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\TreeHands.exe" /NOLOGO /LIBPATH:C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86 /LIBPATH:"C:\dev\freeglut-2.8.1\lib\x86\Debug" /LIBPATH:"C:\dev\glew-1.11.0\lib\Release\Win32" Leapd.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TreeHands.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\TreeHands.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\TreeHands.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\TreeHands.exe not found or not built by the last incremental link; performing full link
+         TreeHands.vcxproj -> C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\TreeHands.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\TreeHands.exe;#1" /manifest Debug\TreeHands.exe.intermediate.manifest
+       PostBuildEvent:
+         xcopy /yr "C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\Leapd.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\"
+         xcopy /yr "C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\msvcp120d.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\"
+         xcopy /yr "C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\msvcr120d.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\"
+         xcopy /yr "C:\dev\freeglut-2.8.1\lib\x86\Debug\freeglut.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\"
+         xcopy /yr "C:\dev\glew-1.11.0\bin\Release\Win32\glew32.dll" "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\Debug\"
+         :VCEnd
+         C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\Leapd.dll
+         1 archivo(s) copiado(s)
+         C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\msvcp120d.dll
+         1 archivo(s) copiado(s)
+         C:\dev\LeapDeveloperKit_2.1.5+22699_win\LeapSDK\lib\x86\msvcr120d.dll
+         1 archivo(s) copiado(s)
+         C:\dev\freeglut-2.8.1\lib\x86\Debug\freeglut.dll
+         1 archivo(s) copiado(s)
+         C:\dev\glew-1.11.0\bin\Release\Win32\glew32.dll
+         1 archivo(s) copiado(s)
+       FinalizeBuildStatus:
+         Deleting file "Debug\TreeHands.unsuccessfulbuild".
+         Touching "Debug\TreeHands.lastbuildstate".
+     1>Done Building Project "C:\Users\AndresMauricio\Documents\Visual Studio 2010\Projects\TreeHands\TreeHands\TreeHands.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03
